@@ -1,5 +1,5 @@
 # DIAGNÓSTICO TERRITORIAL - SAHEL / MALI
-## BSLC - Sistema de Regeneración Territorial
+## PIRS-1 - Sistema de Regeneración Territorial
 
 ---
 

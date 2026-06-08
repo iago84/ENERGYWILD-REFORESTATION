@@ -1,4 +1,4 @@
-# PROTOTIPO PILOTO 100m² - BSLC (PASO 3)
+# PROTOTIPO PILOTO 100m² - PIRS-1 (PASO 3)
 
 ## Lista Materiales Exacta Piloto
 

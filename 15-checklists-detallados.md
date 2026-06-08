@@ -1,4 +1,4 @@
-# CHECKLISTS PARA ELABORACIÓN MOTOR BSLC
+# CHECKLISTS PIRS-1 - REGENERACIÓN TERRITORIAL
 
 ## Checklist 1: Diagnóstico Territorial Inicial
 
@@ -366,5 +366,5 @@
 - [x] Diseño plan capacitación trainers trainers
 - [x] Establecimiento fondo rotatorio expansión
 - [ ] Evaluación lecciones aprendidas décadas
-- [ ] Publicación libro blanco modelo BSLC completo
+- [ ] Publicación libro blanco modelo PIRS-1 completo
 - [ ] Presentación modelos organismos multilaterales

@@ -1,4 +1,4 @@
-# DOCUMENTO MAESTRO BSLC - REGENERACIÓN DEL SAHEL
+# DOCUMENTO MAESTRO PIRS-1 - REGENERACIÓN DEL SAHEL
 
 ## Programa Integrado de Regeneración del Sahel (PIRS-1)
 **Piloto de 1 km² – Restauración agroecológica, hídrica y energética en zonas rurales de Mali**

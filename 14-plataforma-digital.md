@@ -1,4 +1,4 @@
-# PLATAFORMA DIGITAL BSLC - PASO 6
+# PLATAFORMA DIGITAL PIRS-1 - PASO 6
 
 ## Arquitectura Dashboard
 
@@ -18,7 +18,7 @@ Datos: InfluxDB + Grafana
 ```javascript
 Response: [
   {
-    "id": "BSLC-001",
+    "id": "PIRS-001",
     "lat": 16.79,
     "lon": -3.00,
     "estado": "activo",
@@ -42,7 +42,7 @@ Response: [
 ### POST /api/mediciones
 ```javascript
 Request: {
-  "nodo_id": "BSLC-001",
+  "nodo_id": "PIRS-001",
   "humedad_suelo": 28.5,
   "temperatura": 34.2,
   "viento_ms": 4.5,

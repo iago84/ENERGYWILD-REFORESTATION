@@ -1,4 +1,4 @@
-# SIMULACIÓN GIS MALI - BSLC (PASO 4)
+# SIMULACIÓN GIS MALI - PIRS-1 (PASO 4)
 
 ## Coordenadas Zonas Críticas Mali
 
@@ -21,11 +21,11 @@ Riesgo: 70% (frontera viva)
 
 | Nodo ID | Coordenadas | Características | Prioridad |
 |---------|-------------|-----------------|-----------|
-| BSLC-001 | 16.79°N, -3.00°W | Cerca Tombouctou | ALTA |
-| BSLC-002 | 15.33°N, -2.50°W | Zona semiárida | ALTA |
-| BSLC-003 | 13.50°N, -8.00°W | Acuífero accesible | MEDIA |
-| BSLC-004 | 16.20°N, -7.50°W | Viento Harmattan fuerte | ALTA |
-| BSLC-005 | 12.65°N, -7.90°W | Asentamiento existente | CRÍTICA |
+| PIRS-001 | 16.79°N, -3.00°W | Cerca Tombouctou | ALTA |
+| PIRS-002 | 15.33°N, -2.50°W | Zona semiárida | ALTA |
+| PIRS-003 | 13.50°N, -8.00°W | Acuífero accesible | MEDIA |
+| PIRS-004 | 16.20°N, -7.50°W | Viento Harmattan fuerte | ALTA |
+| PIRS-005 | 12.65°N, -7.90°W | Asentamiento existente | CRÍTICA |
 
 ---
 
@@ -39,7 +39,7 @@ Riesgo: 70% (frontera viva)
     {
       "type": "Feature",
       "properties": {
-        "nodo_id": "BSLC-001",
+        "nodo_id": "PIRS-001",
         "tipo": "piloto",
         "riesgo": "alto",
         "propuesta": "agua + solar + nopal"

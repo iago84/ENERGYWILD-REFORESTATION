@@ -1,4 +1,4 @@
-# RESUMEN DEL PROYECTO BSLC
+# RESUMEN DEL PROYECTO PIRS-1
 
 ## Orden recomendado de lectura
 
@@ -73,7 +73,7 @@ Incluye: README + taller + materia prima.
 | 03 | 03-modelo-chino-desertificacion.md | Control arenas (Tengger) |
 | 04 | 04-fog-harvesting-sahel-mali.md | Captación niebla |
 | 05 | 05-nodo-tipo.md | Diseño nodo 1 ha |
-| 06 | 06-documento-maestro-bslc-final.md | Documento maestro ONU/FAO |
+| 06 | 06-documento-maestro-bslc-final.md | Documento maestro ONU/FAO PIRS-1 |
 | 07 | 07-onfao-dossier-ejecutivo.md | Dossier ejecutivo |
 | 08 | 08-agricultura-vertical-sahel.md | Agricultura vertical árida |
 | 09 | 09-modelo-financiero.md | Modelo económico |

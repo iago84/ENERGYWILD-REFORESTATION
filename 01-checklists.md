@@ -1,4 +1,4 @@
-# CHECKLISTS PARA ELABORACIÓN MOTOR BSLC
+# CHECKLISTS PIRS-1 - REGENERACIÓN TERRITORIAL
 
 ## Checklist 1: Diagnóstico Territorial Inicial
 

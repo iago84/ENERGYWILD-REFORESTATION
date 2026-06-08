@@ -39,7 +39,7 @@
 - Crestas elevadas interiores: 2-8 L/m²/día.
 - No aplicable en interior puramente desértico (sin fuente humedad).
 
-### 3.2 Diseño recomendado nodo BSLC
+### 3.2 Diseño recomendado nodo PIRS-1
 ```
 Malla: Raschel 3D o PET reciclado UV-estabilizado
 Dimensiones: 3-5 m² por unidad

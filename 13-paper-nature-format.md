@@ -1,4 +1,4 @@
-# PAPER CIENTÍFICO NATURE - BSLC (PASO 5)
+# PAPER CIENTÍFICO NATURE - PIRS-1 (PASO 5)
 
 ## Research Article Format
 
@@ -41,7 +41,7 @@ The Sahel region experiences accelerated land degradation at 3-5% annually, affe
 - **Drought-resistant crops**: Yield reduction 40-60%
 
 ### Our Approach
-We propose **BSLC (Bio-Soil-Life-Climate)** - a distributed system where:
+We propose **PIRS-1 (Programa Integrado de Regeneración del Sahel)** - a distributed system where:
 - Nodal units self-organize into stable clusters
 - Atmospheric water replaces groundwater dependency
 - Local material cycles (plastic→infrastructure)
@@ -54,7 +54,7 @@ We propose **BSLC (Bio-Soil-Life-Climate)** - a distributed system where:
 ### Field Node Performance
 Three pilot nodes (Tombouctou region, 2023-2026) showed:
 
-| Parameter | Control area | BSLC node | Improvement |
+| Parameter | Control area | PIRS-1 node | Improvement |
 |-----------|--------------|-----------|-------------|
 | Soil moisture 30cm | 8.5% ± 2.1% | 15.2% ± 3.4% | +79% (p<0.01) |
 | Erosion rate | 45 kg/ha/día | 12 kg/ha/día | -73% (p<0.05) |
@@ -91,7 +91,7 @@ The nodal architecture provides:
 |--------|---------------|-------------------|-------------------|
 | Drip irrigation | 1 year | +200% | 15 €/kg |
 | Fog harvesting | 3 years | +50% | 8 €/kg |
-| **BSLC nodes** | **Indefinite** | **+360%** | **2.5 €/kg** |
+| **PIRS-1 nodes** | **Indefinite** | **+360%** | **2.5 €/kg** |
 
 ### Limitations and Future Work
 - Scaling requires industrial mesh production
@@ -102,7 +102,7 @@ The nodal architecture provides:
 
 ## Conclusion
 
-Desertification is reframed from a continuous degradation problem to a discrete stability challenge. The BSLC approach demonstrates that distributed low-tech interventions can reverse desert expansion within 5-10 years while generating economic returns. This bridges the gap between humanitarian intervention and profitable rural development.
+Desertification is reframed from a continuous degradation problem to a discrete stability challenge. The PIRS-1 approach demonstrates that distributed low-tech interventions can reverse desert expansion within 5-10 years while generating economic returns. This bridges the gap between humanitarian intervention and profitable rural development.
 
 **Scaling potential**: Applicable to Sahel (100,000 km²), Australian outback, Middle East wadis.
 

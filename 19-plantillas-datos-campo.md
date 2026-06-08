@@ -1,12 +1,12 @@
 # PLANTILLAS Y PROTOCOLOS DE DATOS DE CAMPO
-## BSLC - Sistema de recolección, almacenamiento y análisis
+## PIRS-1 - Sistema de recolección, almacenamiento y análisis
 
 ---
 
 ## 1. OBJETIVO
-- Estandarizar la toma de datos en campo para todos los nodos BSLC.
+- Estandarizar la toma de datos en campo para todos los nodos PIRS-1.
 - Garantizar comparabilidad entre zonas, temporadas y comunidades.
-- Generar series históricas fiables para modelo BSLC y ML.
+- Generar series históricas fiables para modelo PIRS-1 y ML.
 
 ---
 
@@ -103,7 +103,7 @@ CREATE TABLE mediciones (
 
 ---
 
-## 7. USO EN MODELO BSLC Y ML
+## 7. USO EN MODELO PIRS-1 Y ML
 
 ### Features para modelo ML
 ```python

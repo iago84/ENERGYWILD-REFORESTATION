@@ -61,7 +61,7 @@ No es una intervención agrícola sectorial. Es **infraestructura climática dis
 ### 3.1 Componentes integrados
 ```
 ┌─────────────────────────────────────────┐
-│              NODO BSLC 1 ha              │
+│              NODO PIRS-1 1 ha              │
 ├─────────────────────────────────────────┤
 │ 💧 Agua                                 │
 │   - Fog harvester (malla 3D)            │

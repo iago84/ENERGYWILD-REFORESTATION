@@ -1,4 +1,4 @@
-# BSLC REGENERATION SYSTEM
+# PIRS-1 REGENERATION SYSTEM
 ## Documento maestro - Proyecto BSLC
 ### Autor: Yago Otero, Director Naira Studio LTD (Vigo, España)
 

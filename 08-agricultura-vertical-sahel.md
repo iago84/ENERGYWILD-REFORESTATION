@@ -15,7 +15,7 @@
 |-----------|-------|--------|
 | Ahorro agua vs cultivo tradicional | 50-90 % | Estudios FAO, URJC SAHARAPONICS |
 | Aumento productividad/m² | +200 a +300 % | Novagric, Verti (Murcia) |
-| Reducción evaporación | -70 a -80 % | Documento BSLC agricultura |
+| Reducción evaporación | -70 a -80 % | Documento PIRS-1 agricultura |
 | Consumo energético óptimo | < 250 kWh/t biomasa | Universidad de Strathclyde (2025) |
 
 ### 1.3 Limitaciones reales
@@ -25,7 +25,7 @@
 
 ---
 
-## 2. SISTEMA PROPIO BSLC (ADAPTADO)
+## 2. SISTEMA PROPIO PIRS-1 (ADAPTADO)
 
 ### 2.1 Torre de cultivo híbrida Sahel
 ```

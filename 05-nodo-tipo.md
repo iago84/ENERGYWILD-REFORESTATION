@@ -1,4 +1,4 @@
-# NODO TIPO BSLC - DISEÑO COMPLETO
+# NODO TIPO PIRS-1 - DISEÑO COMPLETO
 ## Arquitectura unitaria replicable ×10 por cluster zona crítica
 
 ---
