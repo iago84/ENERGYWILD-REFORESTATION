@@ -427,22 +427,22 @@ class OptimizadorHalbach:
                 "minimo_requerido": min(r["coste_imanes_eur"] for r in recomendaciones),
             }
         
-    # Seleccionar mejor opción (ranking por desbalance/coste)
-    if viables:
-        viables.sort(key=lambda x: x["desbalance_magnetico_am2"] / max(1, x["coste_imanes_eur"]), reverse=True)
-        mejor = viables[0]
-        
-        return {
-            "recomendacion": mejor,
-            "alternativas_top3": viables[:3],
-            "presupuesto_utilizado_eur": mejor["coste_imanes_eur"],
-            "presupuesto_restante_eur": presupuesto_eur - mejor["coste_imanes_eur"],
-        }
-    else:
-        return {
-            "advertencia": f"Presupuesto {presupuesto_eur}€ muy bajo para configuraciones viables",
-            "minimo_requerido": min(r["coste_imanes_eur"] for r in recomendaciones),
-        }
+        # Seleccionar mejor opción (ranking por desbalance/coste)
+        if viables:
+            viables.sort(key=lambda x: x["desbalance_magnetico_am2"] / max(1, x["coste_imanes_eur"]), reverse=True)
+            mejor = viables[0]
+            
+            return {
+                "recomendacion": mejor,
+                "alternativas_top3": viables[:3],
+                "presupuesto_utilizado_eur": mejor["coste_imanes_eur"],
+                "presupuesto_restante_eur": presupuesto_eur - mejor["coste_imanes_eur"],
+            }
+        else:
+            return {
+                "advertencia": f"Presupuesto {presupuesto_eur}€ muy bajo para configuraciones viables",
+                "minimo_requerido": min(r["coste_imanes_eur"] for r in recomendaciones),
+            }
 
 
 def crear_patron_bslc_optimo() -> PatronImantado:
