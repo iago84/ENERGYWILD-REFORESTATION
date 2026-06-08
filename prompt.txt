@@ -16,7 +16,19 @@ Ver más
 
 
 
-vamis a elaborar unos documentos, sobre paliacion de desertificacion, sostenibilidad agricola, energetica, reservas de agua(uso de deshumidaficadores, busqueda de pozos, terraforming), para la zona rural de Mali
+vamos a elaborar unos documentos sobre paliación de desertificación, sostenibilidad agrícola, energética, reservas de agua (uso de deshumidificadores, búsqueda de pozos, terraforming), para la zona rural de Mali
+
+Autor de todo el contenido: Yago Otero
+Cargo: Director, Naira Studio LTD
+Ubicación: Vigo, España
+Fecha: 08/06/2026
+Contacto: heart.at.flames@gmail.com
+
+NOTA IMPORTANTE - Separación conceptual del proyecto:
+1. BSLC MAGNETIC GENERATOR = Sistema de generación eléctrica mediante conmutación magnética con IA (imanes permanentes + Arduino + AI optimization)
+2. BSLC REGENERATION SYSTEM = Sistema de regeneración territorial para Sahel/Mali (agua + suelo + agricultura + energía distribuida)
+
+Ambos sistemas comparten la sigla "BSLC" pero son desarrollos tecnológicos diferenciados.
 
 Dejó de pensar
 A continuación elaboro un conjunto de documentos técnicos–estratégicos orientados a la mitigación de la desertificación y la construcción de resiliencia sistémica en zonas rurales de Mali. El enfoque integra ingeniería ambiental, infraestructura distribuida, agroecología avanzada y captura energética descentralizada.

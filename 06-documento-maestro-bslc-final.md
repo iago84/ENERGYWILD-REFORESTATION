@@ -1,16 +1,19 @@
-# DOCUMENTO MAESTRO FINAL ONU/FAO
-## Programa Integrado de Regeneración del Sahel (PIRS-1)
-### Piloto 1000 ha - Mali
+# BSLC REGENERATION SYSTEM
+## Documento maestro - Proyecto BSLC
+### Autor: Yago Otero, Director Naira Studio LTD (Vigo, España)
 
 ---
 
 ## 0. CARTA DE PRESENTACIÓN
 
-**Para:** FAO, Banco Mundial, Green Climate Fund, African Development Bank  
-**De:** Equipo Técnico BSLC  
-**Asunto:** Propuesta de intervención integral - Sahel Central Maliense  
-**Clasificación:** Documento técnico de referencia  
+**Para:** FAO, Banco Mundial, Green Climate Fund, African Development Bank
+**De:** Yago Otero, Director Naira Studio LTD
+**Asunto:** Propuesta de intervención integrada - Sahel Central Maliense
+**Clasificación:** Documento técnico de referencia
 **Idiomas:** Español, Francés, English, 中文
+**Contacto:** heart.at.flames@gmail.com
+**Ubicación:** Vigo, España
+**Fecha:** 08 de Junio de 2026
 
 ---
 
@@ -23,15 +26,16 @@ PARA LA ALIMENTACIÓN Y LA AGRICULTURA (FAO)
 PROGRAMA INTEGRADO DE REGENERACIÓN DEL SAHEL (PIRS-1)
 Piloto 1.000 hectáreas - República de Mali
 
-"Cultivando agua, suelo y esperanza" 
+"Cultivando agua, suelo y esperanza"
 
 DOCUMENTO MAESTRO PARA FINANCIACIÓN INTERNACIONAL
-Versión 1.0 - Junio 2025
+Versión 1.0 - Junio 2026
+Autor: Yago Otero, Naira Studio LTD
 ```
 
 ---
 
-## 2. RESUMEN EJECUTIVO EJECUTIVO (3 páginas)
+## 2. RESUMEN EJECUTIVO
 
 ### Problema
 - 12 millones de personas en riesgo de inseguridad alimentaria en Sahel (FAO 2025)
@@ -83,7 +87,7 @@ ROI: Horizonte 7-12 años
 |------------|---------------|
 | · Alta radiación solar | · Fondos verdes disponibles |
 | · Mano de obra rural disponible | · Demanda alimentos creciente |
-| · Experiencia agrícola tradicional | · Nuevos tech. fog harvesting baratas |
+| · Experiencia agrícola tradicional | · Nuevas tecnologías fog harvesting asequibles |
 | · Viento Harmattan recurrente | · Mercado geotextiles reciclados |
 
 | Debilidades | Amenazas |
@@ -91,7 +95,7 @@ ROI: Horizonte 7-12 años
 | · Baja alfabetización técnica | · Inestabilidad regional |
 | · Acceso agua limitado | · Sequías prolongadas |
 | · Infraestructura precaria | · Plagas invasoras |
-| · Financiación inicial escasa | ·competencia por recursos |
+| · Financiación inicial escasa | · Competencia por recursos |
 
 ---
 
@@ -140,7 +144,7 @@ Distribución espacial:
 - 1 fog harvester 3D (3-5 m²)
 - 1 cisterna 50 m³ enterrada
 - 1 pozo pequeño (1 cada 10 nodos)
-- Capacidad日均: 300-500 L/día
+- Capacidad estimada: 300-500 L/día
 
 **Suelo**:
 - Biochar inicial: 1 ton/ha
@@ -296,6 +300,7 @@ El PIRS-1 no es solo un proyecto de desarrollo rural. Es una **infraestructura d
 - Impacto triple: agua + suelo + energía
 - Gobernanza comunitaria transparente
 - Resultados medibles en 12 meses
+- Autoría y desarrollo: Yago Otero, Naira Studio LTD
 
 ---
 
@@ -303,36 +308,43 @@ El PIRS-1 no es solo un proyecto de desarrollo rural. Es una **infraestructura d
 
 | Documento BSLC | Propósito |
 |----------------|-----------|
-| diagnostico-territorial-sahel-mali.md | Base territorial |
-| nodo-tipo.md | Diseño constructivo |
-| fog-harvesting-sahel-mali.md | Sistema hídrico |
-| modelo-chino-desertificacion.md | Control erosión |
-| agricultura-vertical-sahel.md | Producción alimentaria |
-| checklists-detallados.md | Seguimiento operativo |
-| INDICE.md | Navegación proyecto |
+| 02-diagnostico-territorial-sahel-mali.md | Base territorial |
+| 05-nodo-tipo.md | Diseño constructivo |
+| 04-fog-harvesting-sahel-mali.md | Sistema hídrico |
+| 03-modelo-chino-desertificacion.md | Control erosión |
+| 08-agricultura-vertical-sahel.md | Producción alimentaria |
+| 15-checklists-detallados.md | Seguimiento operativo |
+| 00-INDICE.md | Navegación proyecto |
 
 ---
 
-**Contacto**: bslc-sahel@regeneration.org  
-**Fecha**: Junio 2025  
-**Versión**: 1.0 Maestro
+## 12. INFORMACIÓN DE CONTACTO Y AUTORÍA
+
+**Autor principal**: Yago Otero
+**Cargo**: Director
+**Empresa**: Naira Studio LTD
+**Ubicación**: Vigo, España
+**Email**: heart.at.flames@gmail.com
+**Fecha documento**: Junio 2026
+**Versión**: 2.0 (corregida y actualizada)
 
 ---
 
-## ANEXO EJECUTIVO BILINGÜE (ES + EN + FR + ZH)
+## ANEXO A: VERSIÓN FRANÇAISE (RÉSUMÉ)
+**Programme Intégré de Régénération du Sahel (PIRS-1)**
+Auteur: Yago Otero, Naira Studio LTD, Vigo, Espagne
+Objectif: restaurer 10.000 ha en 10 ans par des nodos autonomes eau+sol+énergie+savoir.
+Impacts: sécurité hydrique, alimentaire et énergétique des communautés rurales du Mali.
 
-### Español
-Programa Integrado de Regeneración del Sahel: 100 nodos autónomos de 1 hectárea que integran captación de agua atmosférica, regeneración de suelos, agricultura inteligente y energía distribuida para restaurar 100 km² de territorio degradado en Mali.
+## ANEXO B: ENGLISH VERSION (SUMMARY)
+**Integrated Sahel Regeneration Program (PIRS-1)**
+Author: Yago Otero, Naira Studio LTD, Vigo, Spain
+Goal: restore 10,000 ha in 10 years through autonomous water+soil+energy+knowledge nodes.
+Impacts: water, food, and energy security for rural Mali communities.
 
-### Français
-Programme Intégré de Régénération du Sahel : 100 nœuds autonomes de 1 hectare intégrant captation atmosphérique, régénération des sols, agriculture intelligente et énergie distribuée pour restaurer 100 km² de territoire dégradé au Mali.
+## ANEXO C: RESUMEN MANDARÍN (中文摘要)
+**萨赫勒综合生态恢复项目 (PIRS-1)**
+目标：通过自主水+土+能+知节点，10年恢复10,000公顷土地。
 
-### English
-Integrated Sahel Regeneration Program: 100 autonomous 1-hectare nodes integrating atmospheric water harvesting, soil regeneration, smart agriculture, and distributed energy to restore 100 km² of degraded land in Mali.
-
-### 中文 (中文简化)
-萨赫勒综合生态恢复项目：100个自主1公顷节点，集成大气水捕获、土壤再生、智能农业和分布式能源，在马里恢复100平方公里退化土地。
-
----
-
-**FIN DEL DOCUMENTO MAESTRO**
+## ANEXO D: NOTA TÉCNICA - BSLC MAGNETIC GENERATOR
+**Sistema separado**: El BSLC Magnetic Generator es un desarrollo independiente de generación eléctrica mediante conmutación magnética con IA. No forma parte del PIRS-1 pero comparte la sigla BSLC bajo la misma autoría de Yago Otero / Naira Studio LTD.
