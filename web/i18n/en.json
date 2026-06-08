@@ -1,0 +1,131 @@
+{
+  "site_title": "ENERGYWILD / NEXUS RISING",
+  "site_subtitle": "Territorial regeneration + intelligent energy generation",
+  "org": "Naira Studio LTD",
+  "location": "Vigo, Spain",
+  "year": "2026",
+  "nav": {
+    "overview": "Overview",
+    "components": "Components",
+    "pirs": "PIRS-1",
+    "bslc": "BSLC Generator",
+    "nexus": "NEXUS RISING",
+    "prototyping": "Prototyping",
+    "license": "License",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "ENERGYWILD",
+    "title_span": "/ NEXUS RISING",
+    "tag_system": "Integrated systems",
+    "tag_location": "Vigo, Spain",
+    "tag_year": "2026",
+    "card_energy": "Energy + Territory",
+    "card_energy_desc": "Brings together soil/water regeneration in arid zones and distributed energy generation.",
+    "card_ip": "Protected intellectual property",
+    "card_ip_desc": "Technical documentation under CC BY-NC-ND 4.0. Code under MIT.",
+    "card_status": "Current status",
+    "card_status_desc": "Complete technical documentation. Physical validation pending for the BSLC prototype and its measurement protocol.",
+    "note_split": "Important: BSLC shares the acronym but refers to two separate systems — BSLC Magnetic Generator (electricity generation) and BSLC Regeneration System / PIRS-1 (territorial regeneration)."
+  },
+  "components": {
+    "title": "Project components",
+    "pirs_title": "PIRS-1",
+    "pirs_desc": "Integrated system for water harvesting, regenerative agriculture and energy microgrids in isolated rural areas.",
+    "pirs_cta": "View PIRS-1 index",
+    "bslc_title": "BSLC Magnetic Generator",
+    "bslc_desc": "Electric generator by magnetic commutation with magnet pattern optimization and intelligent control.",
+    "bslc_cta": "View BSLC generator",
+    "nexus_title": "NEXUS RISING",
+    "nexus_desc": "Node network architecture with ML/optimization, datasets and multi-layer design objectives.",
+    "nexus_cta": "View study"
+  },
+  "pirs": {
+    "title": "PIRS-1 — Regeneration documentation",
+    "intro": "Recommended reading order and document location.",
+    "col_id": "#",
+    "col_doc": "Document",
+    "col_purpose": "Purpose",
+    "col_license": "License",
+    "badge_cc": "CC BY-NC-ND",
+    "rows": [
+      { "id": "00", "name": "00-INDICE.md", "purpose": "Full project map" },
+      { "id": "01", "name": "01-checklists.md", "purpose": "Implementation checklist" },
+      { "id": "02", "name": "02-diagnostico-territorial-sahel-mali.md", "purpose": "Territorial diagnostics" },
+      { "id": "05", "name": "05-nodo-tipo.md", "purpose": "Node architecture 1 ha" },
+      { "id": "13", "name": "13-paper-nature-format.md", "purpose": "Scientific paper for publication" }
+    ]
+  },
+  "bslc": {
+    "title": "BSLC Magnetic Generator",
+    "intro": "Concept, diagrams, specifications and experimental validation path.",
+    "section_docs": "Technical documents",
+    "section_concepts": "Advanced concepts",
+    "section_proto": "Prototyping & measurement",
+    "link_magnetico": "Magnetic generator",
+    "link_ficha": "Technical sheet",
+    "link_expert": "Expert handoff",
+    "link_objetivos": "ML/optimization objectives",
+    "link_coatings": "Coatings & meshes",
+    "link_sequences": "Activation sequences",
+    "link_wavy": "Wavy field",
+    "link_hybrid": "Hybrid generation",
+    "link_prototype": "Experimental prototype",
+    "link_protocol": "Measurement protocol"
+  },
+  "nexus": {
+    "title": "NEXUS RISING — Deep Study & ML",
+    "card_deep_title": "Deep Study",
+    "card_deep_desc": "Research framework: sacred geometries, resonant frequencies, semantic analysis and reinforcement learning for commutation.",
+    "card_ml_title": "Dataset & ML",
+    "card_ml_desc": "Synthetic datasets preparation, JSON schema, CSV for training, and triple cross validation (simulation / theory / measurement).",
+    "card_mat_title": "Materials and patterns",
+    "card_mat_desc": "Optimization of magnetic materials, coatings, resistive networks and field geometry for torque and efficiency.",
+    "link_deep": "View document",
+    "link_dataset": "View dataset preparator",
+    "link_obj": "View objectives"
+  },
+  "prototyping": {
+    "title": "Prototyping and validation",
+    "intro": "The experimental roadmap rests on two levels:",
+    "level0_title": "Level 0 — Tabletop",
+    "level0_desc": "Cost 50–100 €. Validate whether the magnetic field produces measurable torque with 1 coil and 1 magnet.",
+    "level1_title": "Level 1 — Open rotor",
+    "level1_desc": "Cost 200–400 €. Measure RPM, torque and efficiency with 3 coils and a 3-magnet rotor.",
+    "level2_title": "Level 2 — Coupled generator",
+    "level2_desc": "Cost 500–800 €. Measure P_out vs P_in. Determine self-sustainability.",
+    "badge_concept": "Conceptual",
+    "note_protocol": "Pass / fail criteria: see measurement protocol."
+  },
+  "license": {
+    "title": "License and intellectual property",
+    "code_title": "Code",
+    "code_desc": "Programming files and scripts: MIT. Reuse allowed with attribution.",
+    "badge_mit": "MIT",
+    "docs_title": "Documents and designs",
+    "docs_desc": "Technical specifications, diagrams, conceptual models and know-how: CC BY-NC-ND 4.0.",
+    "badge_cc": "CC BY-NC-ND 4.0",
+    "holder_title": "Owner",
+    "holder": "Naira Studio LTD",
+    "holder_location": "Vigo, Spain",
+    "holder_email": "heart.at.flames@gmail.com",
+    "see_also": "See also:"
+  },
+  "footer": {
+    "title": "ENERGYWILD",
+    "desc": "Public project documentation.",
+    "licenses_title": "Licenses",
+    "licenses": "Code: MIT\nDocuments: CC BY-NC-ND 4.0",
+    "owner_title": "Naira Studio LTD",
+    "owner": "Yago Otero\nheart.at.flames@gmail.com",
+    "links_title": "Links",
+    "links": "README · PIRS-1 Index · BSLC"
+  },
+  "contact": {
+    "title": "Contact",
+    "author": "Author:",
+    "email": "Email:",
+    "location": "Location:",
+    "date": "Date:"
+  }
+}

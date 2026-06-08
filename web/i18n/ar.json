@@ -1,0 +1,131 @@
+{
+  "site_title": "ENERGYWILD / NEXUS RISING",
+  "site_subtitle": "تجديد إقليمي + توليد طاقة ذكي",
+  "org": "Naira Studio LTD",
+  "location": "فيجو، إسبانيا",
+  "year": "2026",
+  "nav": {
+    "overview": "نظرة عامة",
+    "components": "المكونات",
+    "pirs": "PIRS-1",
+    "bslc": "BSLC Generator",
+    "nexus": "NEXUS RISING",
+    "prototyping": "النماذج الأولية",
+    "license": "الترخيص",
+    "contact": "اتصال"
+  },
+  "hero": {
+    "title": "ENERGYWILD",
+    "title_span": "/ NEXUS RISING",
+    "tag_system": "أنظمة متكاملة",
+    "tag_location": "فيجو، إسبانيا",
+    "tag_year": "2026",
+    "card_energy": "طاقة + إقليم",
+    "card_energy_desc": "يجمع بين تجديد التربة والمياه في المناطق القاحلة وتوليد الطاقة الموزعة.",
+    "card_ip": "ملكية فكرية محمية",
+    "card_ip_desc": "التوثيق الفني تحت CC BY-NC-ND 4.0. الكود تحت MIT.",
+    "card_status": "الحالة الحالية",
+    "card_status_desc": "توثيق فني كامل. التحقق الفعلي قيد الانتظار لنموذج BSLC الأولي وبروتوكول القياس الخاص به.",
+    "note_split": "مهم: BSLC تشترك في الاختصار ولكنها تشير إلى نظامين منفصلين — BSLC Magnetic Generator (توليد كهرباء) و BSLC Regeneration System / PIRS-1 (تجديد إقليمي)."
+  },
+  "components": {
+    "title": "مكونات المشروع",
+    "pirs_title": "PIRS-1",
+    "pirs_desc": "نظام متكامل لجمع المياه والزراعة التجديدية وشبكات الطاقة الصغيرة في المناطق الريفية المعزولة.",
+    "pirs_cta": "عرض فهرس PIRS-1",
+    "bslc_title": "BSLC Generator",
+    "bslc_desc": "مولد كهربائي عن طريق التبديل المغناطيسي مع تحسين أنماب المغناطيس والتحكم الذكي.",
+    "bslc_cta": "عرض مولد BSLC",
+    "nexus_title": "NEXUS RISING",
+    "nexus_desc": "بنية شبكة العقد مع ML/التحسين و مجموعات البيانات وأهداف التصميم متعددة الطبقات.",
+    "nexus_cta": "عرض الدراسة"
+  },
+  "pirs": {
+    "title": "PIRS-1 — وثائق التجديد",
+    "intro": "ترتيب القراءة الموصى به وموقع المستندات.",
+    "col_id": "#",
+    "col_doc": "المستند",
+    "col_purpose": "الغرض",
+    "col_license": "الترخيص",
+    "badge_cc": "CC BY-NC-ND",
+    "rows": [
+      { "id": "00", "name": "00-INDICE.md", "purpose": "خريطة المشروع الكاملة" },
+      { "id": "01", "name": "01-checklists.md", "purpose": "قائمة التحقق من التنفيذ" },
+      { "id": "02", "name": "02-diagnostico-territorial-sahel-mali.md", "purpose": "التشخيص الإقليمي" },
+      { "id": "05", "name": "05-nodo-tipo.md", "purpose": "هندسة العقدة 1 هكتار" },
+      { "id": "13", "name": "13-paper-nature-format.md", "purpose": "ورقة علمية جاهزة للنشر" }
+    ]
+  },
+  "bslc": {
+    "title": "BSLC Generator",
+    "intro": "المفهوم والمخططات والمواصفات ومسار التحقق التجريبي.",
+    "section_docs": "المستندات الفنية",
+    "section_concepts": "المفاهيم المتقدمة",
+    "section_proto": "النماذج الأولية والقياس",
+    "link_magnetico": "مولد مغناطيسي",
+    "link_ficha": "الملف الفني",
+    "link_expert": "تسليم للخبير",
+    "link_objetivos": "أهداف ML/التحسين",
+    "link_coatings": "الطلاءات والشبكات",
+    "link_sequences": "تسلسلات التنشيط",
+    "link_wavy": "مجال متموج",
+    "link_hybrid": "توليد هجين",
+    "link_prototype": "نموذج أولي تجريبي",
+    "link_protocol": "بروتوكول القياس"
+  },
+  "nexus": {
+    "title": "NEXUS RISING — الدراسة المتعمقة والتعلم الآلي",
+    "card_deep_title": "دراسة متعمقة",
+    "card_deep_desc": "إطار البحث: الهندسة المقدسة والترددات الرنانة والتحليل الدلالي والتعلم المعزز للتبديل.",
+    "card_ml_title": "مجموعة البيانات والتعلم الآلي",
+    "card_ml_desc": "إعداد مجموعات بيانات اصطناعية ومخطط JSON و CSV للتدريب والتحقق المتقاطع الثلاثي (محاكاة / نظرية / قياس).",
+    "card_mat_title": "المواد والأنماط",
+    "card_mat_desc": "تحسين المواد المغناطيسية والطلاءات والشبكات المقاومة وهندسة المجال for عزم الدوران والكفاءة.",
+    "link_deep": "عرض المستند",
+    "link_dataset": "عرض محضر مجموعة البيانات",
+    "link_obj": "عرض الأهداف"
+  },
+  "prototyping": {
+    "title": "النماذج الأولية والتحقق",
+    "intro": "تعتمد خارطة الطريق التجريبية على مستويين:",
+    "level0_title": "المستوى 0 — طاولة",
+    "level0_desc": "التكلفة 50–100 يورو. التحقق مما إذا كان المجال المغناطيسي ينتج عزم دوران قابل للقياس باستخدام ملف واحد ومغناطيس واحد.",
+    "level1_title": "المستوى 1 — rotor مفتوح",
+    "level1_desc": "التكلفة 200–400 يورو. قياس RPM وعزم الدوران والكفاءة باستخدام 3 ملفات ودوار 3 مغناطيس.",
+    "level2_title": "المستوى 2 — مولد مقترن",
+    "level2_desc": "التكلفة 500–800 يورو. قياس P_out مقابل P_in. تحديد الاكتفاء الذاتي.",
+    "badge_concept": "مفهومي",
+    "note_protocol": "معايير النجاح / الرسوب: راجع بروتوكول القياس."
+  },
+  "license": {
+    "title": "الترخيص والملكية الفكرية",
+    "code_title": "الكود",
+    "code_desc": "ملفات البرمجة والنصوص البرمجية: MIT. يُسمح بإعادة الاستخدام مع نسب العمل.",
+    "badge_mit": "MIT",
+    "docs_title": "المستندات والتصاميم",
+    "docs_desc": "المواصفات الفنية والمخططات والنماذج المفاهيمية والمعنى العملي: CC BY-NC-ND 4.0.",
+    "badge_cc": "CC BY-NC-ND 4.0",
+    "holder_title": "المالك",
+    "holder": "Naira Studio LTD",
+    "holder_location": "فيجو، إسبانيا",
+    "holder_email": "heart.at.flames@gmail.com",
+    "see_also": "انظر أيضًا:"
+  },
+  "footer": {
+    "title": "ENERGYWILD",
+    "desc": "توثيق عام للمشروع.",
+    "licenses_title": "التراخيص",
+    "licenses": "الكود: MIT\nالمستندات: CC BY-NC-ND 4.0",
+    "owner_title": "Naira Studio LTD",
+    "owner": "Yago Otero\nheart.at.flames@gmail.com",
+    "links_title": "روابط",
+    "links": "README · فهرس PIRS-1 · BSLC"
+  },
+  "contact": {
+    "title": "اتصال",
+    "author": "المؤلف:",
+    "email": "البريد الإلكتروني:",
+    "location": "الموقع:",
+    "date": "التاريخ:"
+  }
+}

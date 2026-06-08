@@ -1,0 +1,131 @@
+{
+  "site_title": "ENERGYWILD / NEXUS RISING",
+  "site_subtitle": "Régénération territoriale + génération énergétique intelligente",
+  "org": "Naira Studio LTD",
+  "location": "Vigo, Espagne",
+  "year": "2026",
+  "nav": {
+    "overview": "Aperçu",
+    "components": "Composants",
+    "pirs": "PIRS-1",
+    "bslc": "BSLC Generator",
+    "nexus": "NEXUS RISING",
+    "prototyping": "Prototypage",
+    "license": "Licence",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "ENERGYWILD",
+    "title_span": "/ NEXUS RISING",
+    "tag_system": "Systèmes intégrés",
+    "tag_location": "Vigo, Espagne",
+    "tag_year": "2026",
+    "card_energy": "Énergie + Territoire",
+    "card_energy_desc": "Associe régénération des sols et de l'eau dans les zones arides et production d'énergie décentralisée.",
+    "card_ip": "Propriété intellectuelle protégée",
+    "card_ip_desc": "Documentation technique sous CC BY-NC-ND 4.0. Code sous MIT.",
+    "card_status": "État actuel",
+    "card_status_desc": "Documentation technique complète. Validation physique en attente du prototype BSLC et de son protocole de mesure.",
+    "note_split": "Important : BSLC partage l'acronyme mais désigne deux systèmes distincts — BSLC Magnetic Generator (production d'électricité) et BSLC Regeneration System / PIRS-1 (régénération territoriale)."
+  },
+  "components": {
+    "title": "Composants du projet",
+    "pirs_title": "PIRS-1",
+    "pirs_desc": "Système intégré pour la récolte d'eau, l'agriculture régénérative et les micro-réseaux énergétiques dans les zones rurales isolées.",
+    "pirs_cta": "Voir l'index PIRS-1",
+    "bslc_title": "BSLC Magnetic Generator",
+    "bslc_desc": "Générateur électrique par commutation magnétique avec optimisation des motifs d'aimantation et contrôle intelligent.",
+    "bslc_cta": "Voir le générateur BSLC",
+    "nexus_title": "NEXUS RISING",
+    "nexus_desc": "Architecture réseau de nœuds avec ML/optimisation, jeux de données et objectifs de conception multicouches.",
+    "nexus_cta": "Voir l'étude"
+  },
+  "pirs": {
+    "title": "PIRS-1 — Documentation de régénération",
+    "intro": "Ordre de lecture recommandé et localisation des documents.",
+    "col_id": "#",
+    "col_doc": "Document",
+    "col_purpose": "Objet",
+    "col_license": "Licence",
+    "badge_cc": "CC BY-NC-ND",
+    "rows": [
+      { "id": "00", "name": "00-INDICE.md", "purpose": "Carte complète du projet" },
+      { "id": "01", "name": "01-checklists.md", "purpose": "Checklist de mise en œuvre" },
+      { "id": "02", "name": "02-diagnostico-territorial-sahel-mali.md", "purpose": "Diagnostic territorial" },
+      { "id": "05", "name": "05-nodo-tipo.md", "purpose": "Architecture du nœud 1 ha" },
+      { "id": "13", "name": "13-paper-nature-format.md", "purpose": "Article scientifique prêt à publier" }
+    ]
+  },
+  "bslc": {
+    "title": "BSLC Magnetic Generator",
+    "intro": "Concept, diagrammes, spécifications et voie de validation expérimentale.",
+    "section_docs": "Documents techniques",
+    "section_concepts": "Concepts avancés",
+    "section_proto": "Prototypage et mesure",
+    "link_magnetico": "Générateur magnétique",
+    "link_ficha": "Fiche technique",
+    "link_expert": "Transmission à un expert",
+    "link_objetivos": "Objectifs ML/optimisation",
+    "link_coatings": "Revêtements et maillages",
+    "link_sequences": "Séquences d'activation",
+    "link_wavy": "Champ ondulatoire",
+    "link_hybrid": "Génération hybride",
+    "link_prototype": "Prototype expérimental",
+    "link_protocol": "Protocole de mesure"
+  },
+  "nexus": {
+    "title": "NEXUS RISING — Deep Study & ML",
+    "card_deep_title": "Deep Study",
+    "card_deep_desc": "Cadre de recherche : géométries sacrées, fréquences résonantes, analyse sémantique et apprentissage par renforcement pour la commutation.",
+    "card_ml_title": "Dataset & ML",
+    "card_ml_desc": "Préparation de jeux de données synthétiques, schéma JSON, CSV pour l'entraînement et validation croisée triple (simulation / théorie / mesure).",
+    "card_mat_title": "Matériaux et motifs",
+    "card_mat_desc": "Optimisation des matériaux magnétiques, revêtements, réseaux résistifs et géométrie de champ pour le couple et l'efficacité.",
+    "link_deep": "Voir le document",
+    "link_dataset": "Voir le préparateur",
+    "link_obj": "Voir les objectifs"
+  },
+  "prototyping": {
+    "title": "Prototypage et validation",
+    "intro": "La feuille de route expérimentale repose sur deux niveaux :",
+    "level0_title": "Niveau 0 — Table",
+    "level0_desc": "Coût 50–100 €. Valider si le champ magnétique produit un couple mesurable avec 1 bobine et 1 aimant.",
+    "level1_title": "Niveau 1 — Rotor ouvert",
+    "level1_desc": "Coût 200–400 €. Mesurer RPM, couple et efficacité avec 3 bobines et un rotor à 3 aimants.",
+    "level2_title": "Niveau 2 — Générateur couplé",
+    "level2_desc": "Coût 500–800 €. Mesurer P_out vs P_in. Déterminer l'autosuffisance.",
+    "badge_concept": "Conceptuel",
+    "note_protocol": "Critères d'admission / échec : voir le protocole de mesure."
+  },
+  "license": {
+    "title": "Licence et propriété intellectuelle",
+    "code_title": "Code",
+    "code_desc": "Fichiers de programmation et scripts : MIT. Réutilisation autorisée avec attribution.",
+    "badge_mit": "MIT",
+    "docs_title": "Documents et conceptions",
+    "docs_desc": "Spécifications techniques, diagrammes, modèles conceptuels et savoir-faire : CC BY-NC-ND 4.0.",
+    "badge_cc": "CC BY-NC-ND 4.0",
+    "holder_title": "Titulaire",
+    "holder": "Naira Studio LTD",
+    "holder_location": "Vigo, Espagne",
+    "holder_email": "heart.at.flames@gmail.com",
+    "see_also": "Voir aussi :"
+  },
+  "footer": {
+    "title": "ENERGYWILD",
+    "desc": "Documentation publique du projet.",
+    "licenses_title": "Licences",
+    "licenses": "Code : MIT\nDocuments : CC BY-NC-ND 4.0",
+    "owner_title": "Naira Studio LTD",
+    "owner": "Yago Otero\nheart.at.flames@gmail.com",
+    "links_title": "Liens",
+    "links": "README · Index PIRS-1 · BSLC"
+  },
+  "contact": {
+    "title": "Contact",
+    "author": "Auteur :",
+    "email": "Email :",
+    "location": "Localisation :",
+    "date": "Date :"
+  }
+}

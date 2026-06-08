@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es" data-lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="site_title">ENERGYWILD / NEXUS RISING</title>
+  <style>
+    :root {
+      --primary: #0a4f3c;
+      --primary-light: #0d7a5e;
+      --accent: #d4a017;
+      --bg: #f7f5f0;
+      --bg-alt: #eef1e8;
+      --text: #1f2a1f;
+      --text-light: #4a5a4a;
+      --border: #d5dac6;
+      --shadow: 0 4px 24px rgba(0,0,0,0.08);
+      --font: "Segoe UI", system-ui, -apple-system, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 1rem; }
+    header {
+      background: linear-gradient(120deg, var(--primary) 0%, #073d2e 100%);
+      color: #fff;
+      padding: 2rem 0;
+    }
+    .header-content {
+      display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;
+    }
+    .header-icon {
+      width: 64px; height: 64px; background: var(--accent); border-radius: 12px;
+      display: grid; place-items: center; font-size: 28px; font-weight: 700; color: #fff; flex-shrink: 0;
+    }
+    h1 { margin: 0; font-size: 2rem; letter-spacing: -0.02em; }
+    .subtitle { color: rgba(255,255,255,0.85); margin-top: 0.2rem; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.6rem; }
+    .tag {
+      display: inline-block; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.25);
+      padding: 0.2rem 0.6rem; border-radius: 999px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em;
+    }
+    .hero-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1.25rem;
+    }
+    .hero-card {
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 12px; padding: 1rem;
+    }
+    .hero-card h3 {
+      margin: 0 0 0.25rem; font-size: 0.9rem; color: var(--accent);
+      text-transform: uppercase; letter-spacing: 0.06em;
+    }
+    .hero-card p { margin: 0; font-size: 0.9rem; color: #e8f0e8; }
+    .toolbar {
+      background: #fff; border-bottom: 1px solid var(--border);
+      padding: 0.6rem 0; position: sticky; top: 0; z-index: 20;
+    }
+    .toolbar-inner {
+      display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; flex-wrap: wrap;
+    }
+    .lang-switch { display: flex; gap: 0.3rem; }
+    .lang-switch button {
+      background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px;
+      padding: 0.25rem 0.6rem; font-size: 0.8rem; cursor: pointer; color: var(--text-light);
+    }
+    .lang-switch button.active {
+      background: var(--primary); color: #fff; border-color: var(--primary);
+    }
+    nav.toc { background: var(--bg-alt); border-bottom: 1px solid var(--border); padding: 0.6rem 0; }
+    .nav-inner { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; }
+    .nav-inner a {
+      background: #fff; border: 1px solid var(--border); border-radius: 8px;
+      padding: 0.35rem 0.7rem; font-size: 0.85rem; color: var(--text-light);
+    }
+    .nav-inner a:hover { border-color: var(--primary); color: var(--primary); }
+    section { padding: 2rem 0; border-bottom: 1px solid var(--border); }
+    h2 {
+      font-size: 1.5rem; margin: 0 0 1rem; display: flex; align-items: center; gap: 0.6rem;
+    }
+    h2 .icon {
+      background: var(--primary); color: #fff; width: 36px; height: 36px; border-radius: 8px;
+      display: grid; place-items: center; font-size: 18px; flex-shrink: 0;
+    }
+    h3 { color: var(--primary); margin: 1.5rem 0 0.5rem; font-size: 1.1rem; }
+    .card {
+      background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem;
+      box-shadow: var(--shadow);
+    }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+    .file-list { background: #fff; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .file-row {
+      display: grid; grid-template-columns: 40px 1fr 170px 140px; gap: 0.5rem;
+      padding: 0.6rem 1rem; border-bottom: 1px solid var(--border); align-items: center;
+    }
+    .file-row:last-child { border-bottom: none; }
+    .file-row.head {
+      background: var(--bg-alt); font-weight: 600; font-size: 0.8rem; color: var(--text-light);
+      text-transform: uppercase; letter-spacing: 0.06em;
+    }
+    .file-icon { font-size: 1.2rem; text-align: center; }
+    .file-name { font-family: ui-monospace, monospace; font-size: 0.92rem; }
+    .file-desc { font-size: 0.85rem; color: var(--text-light); }
+    .file-license { font-size: 0.75rem; }
+    .badge {
+      display: inline-block; padding: 0.15rem 0.5rem; border-radius: 6px;
+      background: var(--bg-alt); border: 1px solid var(--border); font-size: 0.75rem; color: var(--text-light);
+    }
+    .badge-MIT { background: #e8f5e9; border-color: #a5d6a7; color: #1b5e20; }
+    .badge-CC { background: #fff3e0; border-color: #ffcc80; color: #e65100; }
+    .badge-CONCEPT { background: #fff8e1; border-color: #ffe082; color: #ff6f00; }
+    .cta {
+      display: inline-flex; align-items: center; gap: 0.5rem; background: var(--primary);
+      color: #fff; padding: 0.7rem 1.1rem; border-radius: 10px; font-weight: 600; border: none; cursor: pointer;
+    }
+    .cta:hover { background: var(--primary-light); }
+    footer { background: #0b2e22; color: #d8e8d8; padding: 1.5rem 0; font-size: 0.9rem; }
+    .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+    .footer-grid h4 {
+      color: #fff; margin: 0 0 0.4rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em;
+    }
+    .footer-grid p { margin: 0; color: #c4d4c4; }
+    .note { background: #fffbe6; border-left: 4px solid var(--accent); padding: 1rem; border-radius: 0 10px 10px 0; }
+    .pill {
+      display: inline-block; background: var(--primary); color: #fff;
+      padding: 0.35rem 0.85rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600;
+    }
+    .prose h4 { margin: 1.2rem 0 0.4rem; color: var(--text); }
+    .prose p { margin: 0 0 0.6rem; color: var(--text-light); }
+    .prose ul { margin: 0.2rem 0 0.8rem; padding-left: 1.2rem; color: var(--text-light); }
+    .two-col { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+    @media (max-width: 720px) {
+      .file-row { grid-template-columns: 36px 1fr; }
+      .file-desc, .file-license { display: none; }
+      h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <div class="header-icon">EW</div>
+      <div style="flex:1;min-width:220px">
+        <h1>
+          <span data-i18n="hero.title">ENERGYWILD</span>
+          <span style="font-weight:300" data-i18n="hero.title_span"> / NEXUS RISING</span>
+        </h1>
+        <div class="subtitle" data-i18n="site_subtitle">Regeneración territorial + generación energética inteligente</div>
+        <div class="tags">
+          <span class="tag" data-i18n="hero.tag_system">Sistemas integrados</span>
+          <span class="tag" data-i18n="hero.tag_location">Vigo, España</span>
+          <span class="tag" data-i18n="hero.tag_year">2026</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="container toolbar-inner">
+      <div style="font-size:0.85rem;color:var(--text-light)">🌐 <span data-i18n="lang.label">Idioma</span>:</div>
+      <div class="lang-switch" id="langSwitcher">
+        <button data-lang-code="es" class="active">ES</button>
+        <button data-lang-code="en">EN</button>
+        <button data-lang-code="fr">FR</button>
+        <button data-lang-code="zh">ZH</button>
+        <button data-lang-code="ar">AR</button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="toc">
+    <div class="container nav-inner">
+      <a href="#overview" data-i18n="nav.overview">Visión general</a>
+      <a href="#components" data-i18n="nav.components">Componentes</a>
+      <a href="#pirs" data-i18n="nav.pirs">PIRS-1</a>
+      <a href="#bslc" data-i18n="nav.bslc">BSLC Generator</a>
+      <a href="#nexus" data-i18n="nav.nexus">NEXUS RISING</a>
+      <a href="#prototyping" data-i18n="nav.prototyping">Prototipado</a>
+      <a href="#license" data-i18n="nav.license">Licencia</a>
+      <a href="#contact" data-i18n="nav.contact">Contacto</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="overview">
+      <h2><span class="icon">◆</span> <span data-i18n="nav.overview">Visión general</span></h2>
+      <div class="grid">
+        <div class="card">
+          <h3 data-i18n="hero.card_energy">Energía + Territorio</h3>
+          <p data-i18n="hero.card_energy_desc">Reúne dos líneas complementarias: regeneración de suelos/agua en zonas áridas y generación energética distribuida.</p>
+        </div>
+        <div class="card">
+          <h3 data-i18n="hero.card_ip">Propiedad intelectual protegida</h3>
+          <p data-i18n="hero.card_ip_desc">Documentación técnica y diseños bajo <strong>CC BY-NC-ND 4.0</strong>. Código fuente bajo <strong>MIT</strong>.</p>
+        </div>
+        <div class="card">
+          <h3 data-i18n="hero.card_status">Estado actual</h3>
+          <p data-i18n="hero.card_status_desc">Documentación técnica completa. Validación física pendiente del prototipo BSLC y su protocolo de medición.</p>
+        </div>
+      </div>
+      <div class="note" style="margin-top:1rem">
+        <span data-i18n="hero.note_split">Importante: BSLC comparte sigla pero son sistemas diferenciados — </span>
+        <strong>BSLC Magnetic Generator</strong> <span data-i18n="hero.note_split_suffix">(generación eléctrica)</span>
+        <span data-i18n="hero.note_split_conector"> y </span>
+        <strong>BSLC Regeneration System / PIRS-1</strong> <span data-i18n="hero.note_split_suffix">(regeneración territorial)</span>.
+      </div>
+    </section>
+
+    <section id="components">
+      <h2><span class="icon">⚙</span> <span data-i18n="nav.components">Componentes del proyecto</span></h2>
+      <div class="card">
+        <div class="grid">
+          <div>
+            <h3 data-i18n="components.pirs_title">PIRS-1</h3>
+            <p data-i18n="components.pirs_desc">Sistema integrado para captación hídrica, agricultura regenerativa y microredes energéticas en zonas rurales aisladas.</p>
+            <a class="cta" href="00-INDICE.md" data-i18n="components.pirs_cta">Ver índice PIRS-1</a>
+          </div>
+          <div>
+            <h3 data-i18n="components.bslc_title">BSLC Magnetic Generator</h3>
+            <p data-i18n="components.bslc_desc">Generador eléctrico por conmutación magnética con optimización de patrones de imán y control inteligente.</p>
+            <a class="cta" href="01-energia/generador-bslc/README.md" data-i18n="components.bslc_cta">Ver generador BSLC</a>
+          </div>
+          <div>
+            <h3 data-i18n="components.nexus_title">NEXUS RISING</h3>
+            <p data-i18n="components.nexus_desc">Arquitectura de red de nodos con ML/optimización, datasets y objetivos de diseño multi-capa.</p>
+            <a class="cta" href="01-energia/generador-bslc/deep-study-bslc.md" data-i18n="components.nexus_cta">Ver estudio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pirs">
+      <h2><span class="icon">▸</span> <span data-i18n="nav.pirs">PIRS-1</span> — <span data-i18n="pirs.title">Documentación de regeneración</span></h2>
+      <p class="prose" style="color:var(--text-light);margin:0 0 1rem" data-i18n="pirs.intro">Orden de lectura recomendado y localización de documentos.</p>
+      <div class="file-list">
+        <div class="file-row head">
+          <div data-i18n="pirs.col_id">#</div>
+          <div data-i18n="pirs.col_doc">Documento</div>
+          <div data-i18n="pirs.col_purpose">Propósito</div>
+          <div data-i18n="pirs.col_license">Licencia</div>
+        </div>
+        <div class="file-row">
+          <div class="file-icon">📄</div>
+          <div class="file-name"><a href="00-INDICE.md">00-INDICE.md</a></div>
+          <div class="file-desc" data-i18n="pirs.row00_purpose">Mapa completo del proyecto</div>
+          <div class="file-license"><span class="badge badge-CC" data-i18n="pirs.badge_cc">CC BY-NC-ND</span></div>
+        </div>
+        <div class="file-row">
+          <div class="file-icon">📊</div>
+          <div class="file-name"><a href="01-checklists.md">01-checklists.md</a></div>
+          <div class="file-desc" data-i18n="pirs.row01_purpose">Checklist de implementación</div>
+          <div class="file-license"><span class="badge badge-CC" data-i18n="pirs.badge_cc">CC BY-NC-ND</span></div>
+        </div>
+        <div class="file-row">
+          <div class="file-icon">🌍</div>
+          <div class="file-name"><a href="02-diagnostico-territorial-sahel-mali.md">02-diagnostico-territorial-sahel-mali.md</a></div>
+          <div class="file-desc" data-i18n="pirs.row02_purpose">Diagnóstico territorial</div>
+          <div class="file-license"><span class="badge badge-CC" data-i18n="pirs.badge_cc">CC BY-NC-ND</span></div>
+        </div>
+        <div class="file-row">
+          <div class="file-icon">🏗</div>
+          <div class="file-name"><a href="05-nodo-tipo.md">05-nodo-tipo.md</a></div>
+          <div class="file-desc" data-i18n="pirs.row05_purpose">Diseño arquitectónico nodo 1 ha</div>
+          <div class="file-license"><span class="badge badge-CC" data-i18n="pirs.badge_cc">CC BY-NC-ND</span></div>
+        </div>
+        <div class="file-row">
+          <div class="file-icon">📈</div>
+          <div class="file-name"><a href="13-paper-nature-format.md">13-paper-nature-format.md</a></div>
+          <div class="file-desc" data-i18n="pirs.row13_purpose">Paper científico para publicación</div>
+          <div class="file-license"><span class="badge badge-CC" data-i18n="pirs.badge_cc">CC BY-NC-ND</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="bslc">
+      <h2><span class="icon">⚡</span> <span data-i18n="nav.bslc">BSLC Generator</span></h2>
+      <p class="prose" style="color:var(--text-light);margin:0 0 1rem" data-i18n="bslc.intro">Concepto, diagramas, especificaciones y ruta de validación experimental.</p>
+      <div class="grid">
+        <div class="card">
+          <h3 data-i18n="bslc.section_docs">Documentos técnicos</h3>
+          <ul>
+            <li><a href="01-energia/generador-bslc-magnetico.md" data-i18n="bslc.link_magnetico">Generador magnético</a></li>
+            <li><a href="01-energia/ficha-tecnica-bslc.md" data-i18n="bslc.link_ficha">Ficha técnica</a></li>
+            <li><a href="01-energia/prompt-revision-especialista.md" data-i18n="bslc.link_expert">Handoff a especialista</a></li>
+            <li><a href="01-energia/objetivos-optimizacion-bslc.md" data-i18n="bslc.link_objetivos">Objetivos ML/optimización</a></li>
+            <li><a href="01-energia/generador-bslc/deep-study-bslc.md" data-i18n="nexus.card_deep_title">Deep Study</a></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 data-i18n="bslc.section_concepts">Conceptos avanzados</h3>
+          <ul>
+            <li><a href="01-energia/generador-bslc/recubrimientos-mallas-redes-bslc.md" data-i18n="bslc.link_coatings">Recubrimientos y mallas</a></li>
+            <li><a href="01-energia/generador-bslc/secuencias-activacion-bslc.md" data-i18n="bslc.link_sequences">Secuencias de activación</a></li>
+            <li><a href="01-energia/generador-bslc/geometria-campo-ondulatorio-bslc.md" data-i18n="bslc.link_wavy">Campo ondulatorio</a></li>
+            <li><a href="01-energia/generador-bslc/optimizacion-giro-generacion-hibrida.md" data-i18n="bslc.link_hybrid">Generación híbrida</a></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 data-i18n="bslc.section_proto">Prototipado y medición</h3>
+          <ul>
+            <li><a href="01-energia/PROTOTIPADO_EXPERIMENTAL_BSLC.md" data-i18n="bslc.link_prototype">Prototipado experimental</a></li>
+            <li><a href="01-energia/PROTOCOLO_MEDICION_BSLC.md" data-i18n="bslc.link_protocol">Protocolo de medición</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="nexus">
+      <h2><span class="icon">◈</span> <span data-i18n="nav.nexus">NEXUS RISING</span> — <span data-i18n="nexus.title">Deep Study & ML</span></h2>
+      <div class="grid">
+        <div class="card">
+          <h3 data-i18n="nexus.card_deep_title">Deep Study</h3>
+          <p data-i18n="nexus.card_deep_desc">Marco de investigación: geometrías sagradas, frecuencias resonantes, análisis semántico y aprendizaje por refuerzo para conmutación.</p>
+          <a class="cta" href="01-energia/generador-bslc/deep-study-bslc.md" data-i18n="nexus.link_deep">Ver documento</a>
+        </div>
+        <div class="card">
+          <h3 data-i18n="nexus.card_ml_title">Dataset & ML</h3>
+          <p data-i18n="nexus.card_ml_desc">Preparación de datasets sintéticos, esquema JSON, CSV para entrenamiento y validación cruzada triple (simulación / teoría / medición).</p>
+          <a class="cta" href="01-energia/generador-bslc/src/dataset_preparador.py" data-i18n="nexus.link_dataset">Ver dataset preparador</a>
+        </div>
+        <div class="card">
+          <h3 data-i18n="nexus.card_mat_title">Materiales y patrones</h3>
+          <p data-i18n="nexus.card_mat_desc">Optimización de materiales magnéticos, recubrimientos, redes resistivas y geometría de campo para torque y eficiencia.</p>
+          <a class="cta" href="01-energia/generador-bslc/objetivos-optimizacion-bslc.md" data-i18n="nexus.link_obj">Ver objetivos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="prototyping">
+      <h2><span class="icon">🔩</span> <span data-i18n="nav.prototyping">Prototipado y validación</span></h2>
+      <div class="card">
+        <p data-i18n="prototyping.intro">La hoja de ruta experimental descansa en dos niveles:</p>
+        <div class="grid" style="margin-top:1rem">
+          <div>
+            <h3 data-i18n="prototyping.level0_title">Nivel 0 — Mesa</h3>
+            <p data-i18n="prototyping.level0_desc">Coste 50–100 €. Validar si el campo magnético produce torque medible con 1 bobina y 1 imán.</p>
+            <span class="badge badge-CONCEPT" data-i18n="prototyping.badge_concept">Conceptual</span>
+          </div>
+          <div>
+            <h3 data-i18n="prototyping.level1_title">Nivel 1 — Rotor abierto</h3>
+            <p data-i18n="prototyping.level1_desc">Coste 200–400 €. Medir RPM, torque y eficiencia con 3 bobinas y rotor de 3 imanes.</p>
+            <span class="badge badge-CONCEPT" data-i18n="prototyping.badge_concept">Conceptual</span>
+          </div>
+          <div>
+            <h3 data-i18n="prototyping.level2_title">Nivel 2 — Generador acoplado</h3>
+            <p data-i18n="prototyping.level2_desc">Coste 500–800 €. Medir P_out vs P_in. Determinar autosostenimiento.</p>
+            <span class="badge badge-CONCEPT" data-i18n="prototyping.badge_concept">Conceptual</span>
+          </div>
+        </div>
+        <p style="margin-top:1rem;color:var(--text-light)" data-i18n="prototyping.note_protocol">Criterios de aprobado / suspenso: ver <a href="01-energia/PROTOCOLO_MEDICION_BSLC.md">protocolo de medición</a>.</p>
+      </div>
+    </section>
+
+    <section id="license">
+      <h2><span class="icon">⚖</span> <span data-i18n="nav.license">Licencia y propiedad intelectual</span></h2>
+      <div class="grid">
+        <div class="card">
+          <h3 data-i18n="license.code_title">Código</h3>
+          <p data-i18n="license.code_desc">Archivos de programación y scripts: MIT. Se permite reutilización con atribución.</p>
+          <span class="badge badge-MIT" data-i18n="license.badge_mit">MIT</span>
+        </div>
+        <div class="card">
+          <h3 data-i18n="license.docs_title">Documentos y diseños</h3>
+          <p data-i18n="license.docs_desc">Especificaciones técnicas, diagramas, modelos conceptuales y know-how: CC BY-NC-ND 4.0.</p>
+          <span class="badge badge-CC" data-i18n="license.badge_cc">CC BY-NC-ND 4.0</span>
+        </div>
+        <div class="card">
+          <h3 data-i18n="license.holder_title">Titular</h3>
+          <p><strong data-i18n="license.holder">Naira Studio LTD</strong><br>
+          <span data-i18n="license.holder_location">Vigo, España</span><br>
+          <span data-i18n="license.holder_email">heart.at.flames@gmail.com</span></p>
+        </div>
+      </div>
+      <div class="note" style="margin-top:1rem">
+        <span data-i18n="license.see_also">Véanse también:</span>
+        <a href="LICENSE">LICENSE</a> ·
+        <a href="LICENSE-DOCUMENTATION.md">LICENSE-DOCUMENTATION.md</a> ·
+        <a href="PROPIEDAD_INTELECTUAL.md">PROPIEDAD_INTELECTUAL.md</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2><span class="icon">✉</span> <span data-i18n="nav.contact">Contacto</span></h2>
+      <div class="card">
+        <p><strong data-i18n="contact.author">Autor:</strong> Yago Otero (Director, Naira Studio LTD)</p>
+        <p><strong data-i18n="contact.email">Email:</strong> heart.at.flames@gmail.com</p>
+        <p><strong data-i18n="contact.location">Ubicación:</strong> Vigo, España</p>
+        <p><strong data-i18n="contact.date">Fecha:</strong> 2026-06-08</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h4 data-i18n="footer.title">ENERGYWILD</h4>
+        <p data-i18n="footer.desc">Documentación pública del proyecto.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.licenses_title">Licencias</h4>
+        <p data-i18n="footer.licenses">Código: MIT<br>Documentos: CC BY-NC-ND 4.0</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.owner_title">Naira Studio LTD</h4>
+        <p data-i18n="footer.owner">Yago Otero<br>heart.at.flames@gmail.com</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.links_title">Enlaces</h4>
+        <p><a href="README.md">README</a> · <a href="00-INDICE.md" data-i18n="footer.links">Índice PIRS-1</a> · <a href="01-energia/generador-bslc/README.md">BSLC</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const i18n = {};
+    const langMap = { es: "es", en: "en", fr: "fr", zh: "zh", ar: "ar" };
+    Object.entries(langMap).forEach(([code, file]) => {
+      i18n[code] = { ...require ? null : {} };
+    });
+    fetch("i18n/es.json").then(r => r.json()).then(data => { i18n.es = data; applyLang("es"); });
+    fetch("i18n/en.json").then(r => r.json()).then(data => { i18n.en = data; applyLang("es"); });
+    fetch("i18n/fr.json").then(r => r.json()).then(data => { i18n.fr = data; applyLang("es"); });
+    fetch("i18n/zh.json").then(r => r.json()).then(data => { i18n.zh = data; applyLang("es"); });
+    fetch("i18n/ar.json").then(r => r.json()).then(data => { i18n.ar = data; applyLang("es"); });
+
+    function applyLang(lang) {
+      document.documentElement.lang = lang;
+      document.documentElement.setAttribute("data-lang", lang);
+      document.querySelectorAll("[data-i18n]").forEach(el => {
+        const key = el.getAttribute("data-i18n");
+        const text = getNested(i18n[lang], key);
+        if (text) el.innerHTML = text;
+      });
+      document.querySelectorAll("#langSwitcher button").forEach(btn => {
+        btn.classList.toggle("active", btn.getAttribute("data-lang-code") === lang);
+      });
+      localStorage.setItem("energywild-lang", lang);
+    }
+    function getNested(obj, path) {
+      return path.split(".").reduce((o, k) => (o && o[k] != null ? o[k] : null), obj);
+    }
+    document.getElementById("langSwitcher").addEventListener("click", e => {
+      if (e.target.tagName === "BUTTON") applyLang(e.target.getAttribute("data-lang-code"));
+    });
+    (function initLang() {
+      const saved = localStorage.getItem("energywild-lang");
+      if (saved && i18n[saved]) applyLang(saved);
+    })();
+  </script>
+</body>
+</html>

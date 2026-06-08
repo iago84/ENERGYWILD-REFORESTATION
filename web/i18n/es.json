@@ -1,0 +1,131 @@
+{
+  "site_title": "ENERGYWILD / NEXUS RISING",
+  "site_subtitle": "Regeneración territorial + generación energética inteligente",
+  "org": "Naira Studio LTD",
+  "location": "Vigo, España",
+  "year": "2026",
+  "nav": {
+    "overview": "Visión general",
+    "components": "Componentes",
+    "pirs": "PIRS-1",
+    "bslc": "BSLC Generator",
+    "nexus": "NEXUS RISING",
+    "prototyping": "Prototipado",
+    "license": "Licencia",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "ENERGYWILD",
+    "title_span": "/ NEXUS RISING",
+    "tag_system": "Sistemas integrados",
+    "tag_location": "Vigo, España",
+    "tag_year": "2026",
+    "card_energy": "Energía + Territorio",
+    "card_energy_desc": "Reúne regeneración de suelos/agua en zonas áridas y generación energética distribuida.",
+    "card_ip": "Propiedad intelectual protegida",
+    "card_ip_desc": "Documentación técnica bajo CC BY-NC-ND 4.0. Código bajo MIT.",
+    "card_status": "Estado actual",
+    "card_status_desc": "Documentación técnica completa. Validación física pendiente del prototipo BSLC y su protocolo de medición.",
+    "note_split": "Importante: BSLC comparte sigla pero son sistemas diferenciados — BSLC Magnetic Generator (generación eléctrica) y BSLC Regeneration System / PIRS-1 (regeneración territorial)."
+  },
+  "components": {
+    "title": "Componentes del proyecto",
+    "pirs_title": "PIRS-1",
+    "pirs_desc": "Sistema integrado para captación hídrica, agricultura regenerativa y microredes energéticas en zonas rurales aisladas.",
+    "pirs_cta": "Ver índice PIRS-1",
+    "bslc_title": "BSLC Magnetic Generator",
+    "bslc_desc": "Generador eléctrico por conmutación magnética con optimización de patrones de imán y control inteligente.",
+    "bslc_cta": "Ver generador BSLC",
+    "nexus_title": "NEXUS RISING",
+    "nexus_desc": "Arquitectura de red de nodos con ML/optimización, datasets y objetivos de diseño multi-capa.",
+    "nexus_cta": "Ver estudio"
+  },
+  "pirs": {
+    "title": "PIRS-1 — Documentación de regeneración",
+    "intro": "Orden de lectura recomendado y localización de documentos.",
+    "col_id": "#",
+    "col_doc": "Documento",
+    "col_purpose": "Propósito",
+    "col_license": "Licencia",
+    "badge_cc": "CC BY-NC-ND",
+    "rows": [
+      { "id": "00", "name": "00-INDICE.md", "purpose": "Mapa completo del proyecto" },
+      { "id": "01", "name": "01-checklists.md", "purpose": "Checklist de implementación" },
+      { "id": "02", "name": "02-diagnostico-territorial-sahel-mali.md", "purpose": "Diagnóstico territorial" },
+      { "id": "05", "name": "05-nodo-tipo.md", "purpose": "Diseño arquitectónico nodo 1 ha" },
+      { "id": "13", "name": "13-paper-nature-format.md", "purpose": "Paper científico para publicación" }
+    ]
+  },
+  "bslc": {
+    "title": "BSLC Magnetic Generator",
+    "intro": "Concepto, diagramas, especificaciones y ruta de validación experimental.",
+    "section_docs": "Documentos técnicos",
+    "section_concepts": "Conceptos avanzados",
+    "section_proto": "Prototipado y medición",
+    "link_magnetico": "Generador magnético",
+    "link_ficha": "Ficha técnica",
+    "link_expert": "Handoff a especialista",
+    "link_objetivos": "Objetivos ML/optimización",
+    "link_coatings": "Recubrimientos y mallas",
+    "link_sequences": "Secuencias de activación",
+    "link_wavy": "Campo ondulatorio",
+    "link_hybrid": "Generación híbrida",
+    "link_prototype": "Prototipado experimental",
+    "link_protocol": "Protocolo de medición"
+  },
+  "nexus": {
+    "title": "NEXUS RISING — Deep Study & ML",
+    "card_deep_title": "Deep Study",
+    "card_deep_desc": "Marco de investigación: geometrías sagradas, frecuencias resonantes, análisis semántico y aprendizaje por refuerzo para conmutación.",
+    "card_ml_title": "Dataset & ML",
+    "card_ml_desc": "Preparación de datasets sintéticos, esquema JSON, CSV para entrenamiento y validación cruzada triple (simulación / teoría / medición).",
+    "card_mat_title": "Materiales y patrones",
+    "card_mat_desc": "Optimización de materiales magnéticos, recubrimientos, redes resistivas y geometría de campo para torque y eficiencia.",
+    "link_deep": "Ver documento",
+    "link_dataset": "Ver dataset preparador",
+    "link_obj": "Ver objetivos"
+  },
+  "prototyping": {
+    "title": "Prototipado y validación",
+    "intro": "La hoja de ruta experimental descansa en dos niveles:",
+    "level0_title": "Nivel 0 — Mesa",
+    "level0_desc": "Coste 50–100 €. Validar si el campo magnético produce torque medible con 1 bobina y 1 imán.",
+    "level1_title": "Nivel 1 — Rotor abierto",
+    "level1_desc": "Coste 200–400 €. Medir RPM, torque y eficiencia con 3 bobinas y rotor de 3 imanes.",
+    "level2_title": "Nivel 2 — Generador acoplado",
+    "level2_desc": "Coste 500–800 €. Medir P_out vs P_in. Determinar autosostenimiento.",
+    "badge_concept": "Conceptual",
+    "note_protocol": "Criterios de aprobado / suspenso: ver protocolo de medición."
+  },
+  "license": {
+    "title": "Licencia y propiedad intelectual",
+    "code_title": "Código",
+    "code_desc": "Archivos de programación y scripts: MIT. Se permite reutilización con atribución.",
+    "badge_mit": "MIT",
+    "docs_title": "Documentos y diseños",
+    "docs_desc": "Especificaciones técnicas, diagramas, modelos conceptuales y know-how: CC BY-NC-ND 4.0.",
+    "badge_cc": "CC BY-NC-ND 4.0",
+    "holder_title": "Titular",
+    "holder": "Naira Studio LTD",
+    "holder_location": "Vigo, España",
+    "holder_email": "heart.at.flames@gmail.com",
+    "see_also": "Véanse también:"
+  },
+  "footer": {
+    "title": "ENERGYWILD",
+    "desc": "Documentación pública del proyecto.",
+    "licenses_title": "Licencias",
+    "licenses": "Código: MIT\nDocumentos: CC BY-NC-ND 4.0",
+    "owner_title": "Naira Studio LTD",
+    "owner": "Yago Otero\nheart.at.flames@gmail.com",
+    "links_title": "Enlaces",
+    "links": "README · Índice PIRS-1 · BSLC"
+  },
+  "contact": {
+    "title": "Contacto",
+    "author": "Autor:",
+    "email": "Email:",
+    "location": "Ubicación:",
+    "date": "Fecha:"
+  }
+}
